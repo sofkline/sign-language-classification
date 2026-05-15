@@ -20,7 +20,7 @@ from tensorflow.keras.optimizers import Adam
 
 def load_data(path: str) -> pd.DataFrame:
     """Загрузка датасета из CSV."""
-    return pd.read_csv(path)
+    return pd.read_csv(path, sep=';')
 
 def encode_labels(df: pd.DataFrame, label_col: str):
     """
