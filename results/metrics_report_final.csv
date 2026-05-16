@@ -1,0 +1,5 @@
+Модель,F1-macro
+Random Forest (baseline),0.9435
+SVM (baseline),0.8394
+BiLSTM (ручные параметры),0.9156
+BiLSTM + Keras Tuner,0.9396
