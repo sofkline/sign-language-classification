@@ -1,0 +1,4 @@
+Модель,F1-macro
+Random Forest (baseline),0.9435
+SVM (baseline),0.8394
+BiLSTM (наша модель),0.9156
